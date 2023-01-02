@@ -18,13 +18,4 @@ for line in file:
         currentVal = 0
     else:
         currentVal += int(line)
-if currentVal > firstVal:
-    thirdVal = secondVal
-    secondVal = firstVal
-    firstVal = currentVal
-elif currentVal > secondVal:
-    thirdVal = secondVal
-    secondVal = currentVal
-elif currentVal > thirdVal:
-    thirdVal = currentVal
 print(firstVal + secondVal + thirdVal)
