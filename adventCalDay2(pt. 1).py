@@ -43,13 +43,5 @@ for line in file:
     elif playerTwo == "Y":
         score += paper(playerOne, score)
     elif playerTwo == "Z":
-        score += scissors(playerOne, score)
-    
-    '''if playerTwo == "X":
-        print ("rock")
-    elif playerTwo == "Y":
-        print ("paper")
-    elif playerTwo == "Z":
-        print ("Scissors")'''
-        
+        score += scissors(playerOne, score)        
 print(score)
